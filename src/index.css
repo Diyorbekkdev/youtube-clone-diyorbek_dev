@@ -11,6 +11,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+.overflow-y-auto::-webkit-scrollbar {
+    width: 10px !important; /* Width of the scrollbar */
+  }
+  
+.overflow-y-auto::-webkit-scrollbar-track {
+    background: #000000 !important; /* Background color of the track */
+  }
+  
+  /* Customize the scrollbar handle */
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background: #888 !important; /* Color of the handle */
+    border-radius: 5px; /* Border radius of the handle */
+  }
+  
+  /* On hover, style the scrollbar handle */
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle on hover */
+  }
+
 #root {
     height: 100vh;
 }
